@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		585C675F281D32670065D307 /* HistoriesOfCarBrandsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C675E281D32670065D307 /* HistoriesOfCarBrandsApp.swift */; };
-		585C6761281D32670065D307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6760281D32670065D307 /* ContentView.swift */; };
+		585C6761281D32670065D307 /* BrandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6760281D32670065D307 /* BrandListView.swift */; };
 		585C6763281D32680065D307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585C6762281D32680065D307 /* Assets.xcassets */; };
 		585C6766281D32680065D307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585C6765281D32680065D307 /* Preview Assets.xcassets */; };
+		585C676D281D36BB0065D307 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C676C281D36BB0065D307 /* Brand.swift */; };
+		585C676F281D3BD20065D307 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C676E281D3BD20065D307 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		585C675B281D32670065D307 /* HistoriesOfCarBrands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoriesOfCarBrands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		585C675E281D32670065D307 /* HistoriesOfCarBrandsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriesOfCarBrandsApp.swift; sourceTree = "<group>"; };
-		585C6760281D32670065D307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		585C6760281D32670065D307 /* BrandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListView.swift; sourceTree = "<group>"; };
 		585C6762281D32680065D307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585C6765281D32680065D307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		585C676C281D36BB0065D307 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		585C676E281D3BD20065D307 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				585C675E281D32670065D307 /* HistoriesOfCarBrandsApp.swift */,
-				585C6760281D32670065D307 /* ContentView.swift */,
+				585C6760281D32670065D307 /* BrandListView.swift */,
+				585C676E281D3BD20065D307 /* HistoryView.swift */,
+				585C676C281D36BB0065D307 /* Brand.swift */,
 				585C6762281D32680065D307 /* Assets.xcassets */,
 				585C6764281D32680065D307 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585C6761281D32670065D307 /* ContentView.swift in Sources */,
+				585C6761281D32670065D307 /* BrandListView.swift in Sources */,
+				585C676F281D3BD20065D307 /* HistoryView.swift in Sources */,
+				585C676D281D36BB0065D307 /* Brand.swift in Sources */,
 				585C675F281D32670065D307 /* HistoriesOfCarBrandsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

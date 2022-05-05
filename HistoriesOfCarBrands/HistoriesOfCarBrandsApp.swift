@@ -11,7 +11,7 @@ import SwiftUI
 struct HistoriesOfCarBrandsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BrandListView()
         }
     }
 }
