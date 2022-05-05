@@ -35,6 +35,7 @@ struct HistoryView: View {
     }
 }
 
+//Preview kısmında temsili bir içerik görebilmek için listenin markaları yazdığım dizinin ilk elemanını parametre olarak verdim.
 struct HistoryView_Previews: PreviewProvider {
     static var previews: some View {
         HistoryView(brand: BrandList.listOfBrands.first!)
